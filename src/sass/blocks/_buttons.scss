@@ -1,0 +1,42 @@
+.button {
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: $main_color;
+    border: none;
+    color:#ffffff;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 19px;
+    text-transform: uppercase;
+    transition: 0.5s all;
+    &_main {
+        margin-top: 67px;
+        width: 303px;
+        height: 54px;
+        font-size: 16px;
+        line-height: 25px;
+    }
+    &_submit {
+        width: 100%;
+        height: 55px;
+        background: $main_color;
+        font-size: 16px;
+        color: #FFFFFF;
+    }
+    &_mini {
+        margin-top: 5px;
+        background-color: $main_color;
+        width: 135px;
+        height: 44px;
+        border-radius: 6px;
+        color: #fff;
+        border: none;
+        font-weight: 500;
+        font-size: 14px;
+        text-transform: uppercase;
+    }
+    &:hover {
+        box-shadow: 4px 4px 20px $main_color;
+    }
+}
