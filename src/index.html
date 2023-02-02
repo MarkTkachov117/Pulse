@@ -8,10 +8,11 @@
     <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
     <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/animate.min.css"/>
     <link rel="stylesheet" href="css/style.min.css">
 </head>
 <body>
-    <section class="promo">
+    <section id="up" class="promo">
         <div class="container">
             <header class="header">
                 <a href="#" class="header__logo">
@@ -37,12 +38,12 @@
                         10 минут
                     </div>
                     <div class="promo__icon">
-                        <img src="icons/app 08 hand cart 64.png" alt="">
+                        <img src="icons/apphandcart.png" alt="">
                         Бесплатная
                         доставка
                     </div>
                     <div class="promo__icon">
-                        <img src="icons/messages 64.png" alt="">
+                        <img src="icons/messages64.png" alt="">
                         Ответим
                         на все вопросы
                     </div>
@@ -61,20 +62,20 @@
             <h1 class="leads__title">НАШИ ПРЕИМУЩЕСТВА</h1>
             <div class="leads__wrapper">
                 <div class="leads__item">
-                    <img class="leads__img" src="icons/cup.png" alt="">
+                    <img class="leads__img leads__img_cup" src="icons/cup.svg" alt="">
                     <div class="leads__subtitle">Делимся опытом</div>
                     <div class="leads__descr">Наши сотрудники всегда готовы поделиться своим опытом, 
                         так как сами бегают полумарафоны, переплыли Босфор, готовятся к соревнованиям по триатлону!
                     </div>            
                 </div>
                 <div class="leads__item">
-                    <img class="leads__img" src="icons/heart.png" alt="">
+                    <img class="leads__img leads__img_heart" src="icons/heart.svg" alt="">
                     <div class="leads__subtitle">Заботимся о здоровье</div>
                     <div class="leads__descr">Мы работаем для того, чтобы Ваши занятия спортом шли на пользу Вашему здоровью и были в радость Вам и Вашим близким!
                     </div>        
                 </div>
                 <div class="leads__item">
-                    <img class="leads__img" src="icons/shoe.png" alt="">
+                    <img class="leads__img leads__img_shoe" src="icons/shoe.svg" alt="">
                     <div class="leads__subtitle">Учим бегать</div>
                     <div class="leads__descr">
                         Помогаем с обучением 
@@ -378,7 +379,7 @@
         <div class="container">
             <h2 class="title">отзывы клиентов</h2>
             <div class="reviews__clients">
-                <div class="reviews__client">
+                <div class="reviews__client animate__animated animate__fadeInUp wow" data-wow-duration="2s" data-wow-delay="1s">
                     <img src="img/Irina_round.png" alt="photo_client" class="reviews__img">
                     <div class="reviews__wrapper">
                         <div class="reviews__name">Ирина Иванченко </div>
@@ -393,7 +394,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="reviews__client">
+                <div class="reviews__client animate__animated animate__fadeInUp wow" data-wow-duration="2s" data-wow-delay="1s">
                     <img src="img/Ivan_round.png" alt="photo" class="reviews__img">
                     <div class="reviews__wrapper">
                         <div class="reviews__name">Иван Сёмочкин</div>
@@ -407,7 +408,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="reviews__client">
+                <div class="reviews__client animate__animated animate__fadeInUp wow" data-wow-duration="2s" data-wow-delay="1s">
                         <img src="img/Yulia_round.png" alt="photo" class="reviews__img">
                         <div class="reviews__wrapper">
                             <div class="reviews__name">Юлия Дашкина</div>
@@ -420,8 +421,10 @@
                                 Спасибо!!!
                                 <br>
                             </div>
-                    </div>
+                        </div>
                 </div>
+            </div>
+        </div>
     </section>
 
     <footer class="footer">
@@ -476,10 +479,15 @@
         </div>
     </div>
 
-    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <a href="#up" class="pageup">
+        <img src="icons/circle-arrow-up-solid.svg" alt="">
+    </a>
+
+    <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script src="js/slick.min.js"></script>
     <script src="js/jquery.validate.min.js"></script>
+    <script src="js/wow.min.js"></script>
     <script src="js/script.js"></script>
 </body>
 </html>

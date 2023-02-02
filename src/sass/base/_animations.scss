@@ -1,0 +1,20 @@
+@keyframes heartbeat {
+    from {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+    to {
+        transform: scale(1);
+    }
+}
+
+@keyframes cup {
+    from {
+        transform: rotateX(0deg);
+    }
+    to {
+        transform: perspective(30deg);
+    }
+}

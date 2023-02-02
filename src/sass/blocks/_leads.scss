@@ -1,6 +1,7 @@
 .leads {
     min-height: 473px;
     padding: 73px 0 85px 0;
+    background-color: #F6F6F6;
     &__title {
         text-align: center;
         font-weight: 700;
@@ -16,7 +17,17 @@
     &__item {
         width: 280px;
         text-align: center;
-        background-color: #fff;
+        background-color: #F6F6F6;
+       
+    }
+    &__img_heart {
+        animation: heartbeat 1.5s ease-in-out infinite;
+       
+    }
+    &__img_cup {
+        animation-name: cup;
+        animation-iteration-count: infinite;
+        animation-duration: 1.5s;
     }
     &__subtitle {
         margin-top: 60px;
@@ -48,6 +59,7 @@
         }
         &__img {
             margin-top: 20px;
+            background-color: #fff;
         }
         &__subtitle {
             margin-top: 20px;
